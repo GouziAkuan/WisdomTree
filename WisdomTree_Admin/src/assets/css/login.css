@@ -1,0 +1,116 @@
+/* login.css 优化 */
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/src/assets/images/login-back.jpg');
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  z-index: -1;
+  /* 添加背景模糊和暗色叠加 */
+  filter: blur(10px);
+}
+
+.bg::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.login-card {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+/* 卡片容器优化 */
+.el-card {
+  border: none !important;
+  border-radius: 20px !important;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.88) !important;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+}
+
+.login-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.login-header h1 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 表单样式优化 */
+.demo-ruleForm {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.el-form-item__label {
+  color: #4a5568 !important;
+  font-weight: 500 !important;
+}
+
+.el-input__inner {
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+}
+
+.el-input__inner:focus {
+  border-color: #6a11cb !important;
+  box-shadow: 0 0 0 2px rgba(106, 17, 203, 0.2) !important;
+}
+
+/* 按钮样式优化 */
+.el-button--primary {
+  width: 100%;
+  background: linear-gradient(45deg, #6a11cb, #2575fc) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 15px 0 !important;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease !important;
+}
+
+.el-button--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(106, 17, 203, 0.4) !important;
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+  .el-col {
+    width: 90% !important;
+    margin-left: 5% !important;
+  }
+
+  .login-header h1 {
+    font-size: 1.4rem;
+  }
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  border-radius: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

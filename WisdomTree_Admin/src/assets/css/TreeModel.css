@@ -1,0 +1,177 @@
+.page {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.title {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.5),
+    0 0 10px rgba(255, 255, 255, 0.5);
+  z-index: 1000;
+  padding: 12px 24px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  animation: float 5s ease-in-out infinite;
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+/* 移动端专属优化 */
+@media (max-width: 768px) {
+  .title {
+    font-size: 16px; /* 更小的字号 */
+    padding: 8px 12px;
+    top: 10px; /* 更靠近顶部 */
+    border-radius: 6px;
+    text-shadow:
+      1px 1px 2px rgba(0, 0, 0, 0.5),
+      0 0 4px rgba(255, 255, 255, 0.3);
+  }
+
+  /* 横屏优化 */
+  @media (orientation: landscape) {
+    .title {
+      font-size: 18px;
+      top: 5px;
+      padding: 6px 10px;
+    }
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, 5px);
+  }
+}
+
+/* 新增提示词样式 */
+.tips-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 12px 24px;
+  border-radius: 8px;
+  animation: fadeScale 2s ease-in-out forwards;
+  pointer-events: none;
+  z-index: 1000;
+  backdrop-filter: blur(3px);
+}
+
+@keyframes fadeScale {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  20%,
+  80% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+}
+
+/* 新增控制按钮样式 */
+.controls {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.controls button {
+  margin: 0;
+  padding: 12px 18px;
+  color: white;
+  font-size: 16px;
+  background: rgba(33, 149, 243, 0.77);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s;
+  border-radius: 10px;
+}
+
+.controls button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .back-button {
+    display: none;
+  }
+
+  .controls {
+    top: auto;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 90%;
+  }
+
+  .controls button {
+    padding: 10px 14px;
+    font-size: 14px;
+    flex: 1 1 40%;
+  }
+
+  /* 横屏优化 */
+  @media (orientation: landscape) {
+    .controls {
+      bottom: 10px;
+    }
+    .controls button {
+      padding: 8px 12px;
+      font-size: 13px;
+    }
+  }
+}
+
+/* 修改后的CSS动画 */
+.season-text {
+  animation: fadeOut 2s ease-in forwards;
+  opacity: 1;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+}

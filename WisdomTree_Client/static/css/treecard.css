@@ -1,0 +1,115 @@
+.treelist-item {
+  width: 295rpx;
+  padding: 20rpx;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 30rpx;
+  height: fit-content;
+}
+
+.treelist-image image {
+  width: 140rpx;
+  height: 140rpx;
+}
+
+.list-text view {
+  margin-bottom: 0;
+}
+
+/* 消除插槽的样式影响 */
+.list-text :nth-child(1) {
+  margin-bottom: 0;
+}
+
+.list-text :nth-child(1) {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.list-text :nth-child(2) {
+  margin-top: 20rpx;
+  font-size: 12px;
+  padding: 8rpx;
+  background-color: #e7f5fe;
+  color: #458dda;
+  border: 1px solid #458dda;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 25rpx;
+  font-weight: normal;
+}
+
+.list-text :nth-child(3) {
+  font-size: 12px;
+  padding: 8rpx;
+  background-color: #fff9e3;
+  color: #cfb868;
+  border: 1px solid #cfb868;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20rpx;
+  font-weight: normal;
+}
+
+.list-text :nth-child(4) {
+  font-size: 17px;
+  font-weight: 700;
+  color: #dc0000;
+}
+
+.item-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  text-align: center;
+  padding: 25rpx;
+  padding-top: 15rpx;
+  padding-bottom: 15rpx;
+  margin-top: 15rpx;
+  margin-bottom: 10rpx;
+  background-color: #48a77e;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.energy-progress {
+  margin-top: 20rpx;
+}
+
+.progress-container {
+  position: relative;
+  height: 32rpx;
+  background: #f0f5f9;
+  border-radius: 99rpx;
+  box-shadow: inset 0 2rpx 4rpx rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  border: 1rpx solid #e1e9ef;
+}
+
+.progress-bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: linear-gradient(90deg, #7dd3fc 0%, #4fdbae 100%);
+  border-radius: 99rpx;
+  box-shadow: 2rpx 0 8rpx rgba(125, 211, 252, 0.3);
+  transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.progress-text {
+  position: absolute;
+  left: 50%;
+  top: 3rpx;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  font-size: 20rpx;
+  font-weight: 500;
+  color: #363636;
+  z-index: 2;
+  text-shadow: 0 1rpx 1rpx rgba(255, 255, 255, 0.5);
+}

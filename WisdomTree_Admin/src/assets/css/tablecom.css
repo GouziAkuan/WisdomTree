@@ -1,0 +1,21 @@
+.table {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.xq {
+  padding: 2rem;
+}
+
+.xq h3 {
+  margin-bottom: 1rem;
+}
+
+/* 详情图片 */
+.treeImge-el {
+  overflow-y: auto;
+}
+
+.avatar {
+  width: 5rem;
+}

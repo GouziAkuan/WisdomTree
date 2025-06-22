@@ -1,0 +1,20 @@
+.page {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #edf2ee;
+}
+
+/* 树列表 */
+.treelist {
+  width: 100%;
+  margin-top: 70rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.treelist-image image {
+  width: 140rpx;
+  height: 140rpx;
+}

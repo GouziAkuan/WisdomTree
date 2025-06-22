@@ -1,0 +1,35 @@
+.user-info__card {
+	background-color: white;
+	width: 280rpx;
+	padding: 20rpx;
+	border-radius: 15px;
+	height: 130rpx;
+	padding-top: 25rpx;
+	padding-bottom: 25rpx;
+	display: flex;
+	align-items: center;
+	margin-bottom: 30rpx;
+}
+
+.user-info__card__item {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card-nr :nth-child(1) {
+	color: black;
+	margin-bottom: 10rpx;
+	font-weight: 700;
+}
+
+.card-nr :nth-child(2) {
+	color: #7c7c7c;
+	font-size: 14px;
+}
+
+.card-img__box image {
+	width: 120rpx;
+	height: 120rpx;
+}

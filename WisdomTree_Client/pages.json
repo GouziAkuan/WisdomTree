@@ -1,0 +1,80 @@
+{
+  "pages": [
+    {
+      "path": "pages/user/login/login"
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/tree/TreeFrom/TreeFrom",
+      "style": {
+        "navigationBarTitleText": "提交领养"
+      }
+    },
+    {
+      "path": "pages/user/register/register"
+    },
+    {
+      "path": "pages/user/center/center"
+    },
+    {
+      "path": "pages/tree/TreeList/TreeList"
+    },
+    {
+      "path": "pages/tree/TreeDetail/TreeDetail"
+    },
+    {
+      "path": "pages/user/UpdateInfo/UpdateInfo"
+    },
+    {
+      "path": "pages/user/UserList/UserList"
+    },
+    {
+      "path": "pages/user/UserDeail/UserDeail"
+    },
+    {
+      "path": "pages/ai/index"
+    },
+    {
+      "path": "pages/forum/index"
+    },
+    {
+      "path": "pages/forum/forumDetail/index"
+    },
+    {
+      "path": "pages/forum/addForum/index"
+    },
+    {
+      "path": "pages/synergism/index"
+    },
+    {
+      "path": "pages/webview/index",
+      "style": {
+        "navigationBarTitleText": "正在前往..."
+      }
+    },
+    {
+      "path": "pages/user/activity/index"
+    },
+    {
+      "path": "pages/user/collection/index"
+    },
+    {
+      "path": "pages/user/datachart/index"
+    }
+  ],
+  "globalStyle": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "app-plus": {
+      "background": "#efeff4"
+    }
+  }
+}

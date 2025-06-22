@@ -1,0 +1,50 @@
+/* 步骤 */
+.all-title {
+	position: relative;
+	padding: 20rpx;
+	margin-top: 10rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1;
+}
+
+.title-right image {
+	width: 200rpx;
+	height: 210rpx;
+	border-radius: 8px;
+}
+
+.title-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.title-left text:nth-child(1) {
+	color: #47a47c;
+}
+
+.title-left text:nth-child(2) {
+	font-size: 30rpx;
+	font-weight: bold;
+	padding-top: 25rpx;
+	padding-bottom: 25rpx;
+	font-size: 19px;
+}
+
+.bz {
+	display: flex;
+	align-items: center;
+}
+
+.xian {
+	width: 85rpx;
+	height: 2px;
+	background-color: white;
+	margin-top: 10rpx;
+}
+
+.active {
+	background-color: #47a47c;
+}

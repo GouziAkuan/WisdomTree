@@ -1,0 +1,37 @@
+{
+  "name": "wisdomtree-admin",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@types/three": "^0.176.0",
+    "@vueuse/core": "^13.1.0",
+    "axios": "^1.9.0",
+    "d3-geo": "^3.1.1",
+    "dayjs": "^1.11.13",
+    "echarts": "^5.6.0",
+    "element-plus": "^2.9.8",
+    "pinia": "^3.0.2",
+    "pinia-plugin-persistedstate": "^4.2.0",
+    "three": "^0.176.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.11.0",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/eslint-config-prettier": "^10.2.0",
+    "eslint": "^9.25.1",
+    "eslint-plugin-vue": "^10.0.0",
+    "prettier": "^3.5.3",
+    "vite": "^6.3.3"
+  }
+}
