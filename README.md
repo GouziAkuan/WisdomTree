@@ -16,16 +16,17 @@
 
 **核心功能**
 
-1. **用户端**（小程序）
-
+1. **用户端**（小程序）已上线体验版
+   ![系统架构图](https://tse3-mm.cn.bing.net/th/id/OIP-C.8YBvPOPJ9PElHqZLkjgVBwHaHS?r=0&rs=1&pid=ImgDetMain) 
    - 树木个性化领养与成长档案管理
    - AI 图像识别与养护方案生成
    - 环保论坛与活动运营
    - 微信步数兑换能量积分与互动激励
    - 积分机制领养树木
 
-2. **管理端**（Web）
+2. **管理端**（Web）已上线 体验账号 GucTree 123456
 
+   - 上线地址:https://admin-165494-6-1348407746.sh.run.tcloudbase.com/TreeModel
    - 3D 校园领养分布地图与 3D 树木养护模型
    - 树木/树类信息管理
    - 活动发布与数据看板
