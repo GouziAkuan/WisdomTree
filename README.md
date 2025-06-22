@@ -17,7 +17,9 @@
 **核心功能**
 
 1. **用户端**（小程序）已上线体验版
-   ![系统架构图](https://tse3-mm.cn.bing.net/th/id/OIP-C.8YBvPOPJ9PElHqZLkjgVBwHaHS?r=0&rs=1&pid=ImgDetMain) 
+
+   ![系统架构图](https://s21.ax1x.com/2025/06/22/pVZtqy9.jpg)
+
    - 树木个性化领养与成长档案管理
    - AI 图像识别与养护方案生成
    - 环保论坛与活动运营
