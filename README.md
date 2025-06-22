@@ -43,4 +43,4 @@
 
 ---
 
-GouziAKuan 敬上
+GouziAkuan 敬上
