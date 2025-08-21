@@ -19,10 +19,12 @@
 
 1. **用户端**（小程序）已上线体验版 重新注册账号即可
 
-   ![体验版二维码](https://youke1.picui.cn/s1/2025/08/21/68a72fd19211e.png)
    注意打开调试模式（然后重新启动小程序），步骤如下：
-   <img src="https://youke1.picui.cn/s1/2025/08/21/68a72fd1b424f.png" width="300" height="600"/>
-   <img src="https://youke1.picui.cn/s1/2025/08/21/68a7308181905.jpeg" width="300" height="600"/>
+
+   ![体验版二维码](https://youke1.picui.cn/s1/2025/08/21/68a72fd19211e.png)
+
+   <img src="https://youke1.picui.cn/s1/2025/08/21/68a72fd1b424f.png" width="300" height="650"/>
+   <img src="https://youke1.picui.cn/s1/2025/08/21/68a7308181905.jpeg" width="300" height="650"/>
 
    - 树木个性化领养与成长档案管理
    - AI 图像识别与养护方案生成
