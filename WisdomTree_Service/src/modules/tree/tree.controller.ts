@@ -19,6 +19,7 @@ import {
   AdoptTreeDto,
   GetTreeDetailDto,
   GetTreeTypeDetailDto,
+  PaginateQueryDto,
 } from './dto/tree.dto';
 import { ReqDto } from '../token/dto/token.dto';
 import { ApiResponse } from 'src/common/interfaces/res.interface';
@@ -30,8 +31,11 @@ export class TreeController {
 
   // 获取树木列表
   @Get('getTree')
-  async getTree(@Request() req: ReqDto): Promise<GetTreeRequestDto> {
-    return await this.treeservice.getTree(req.user.id);
+  async getTree(
+    @Request() req: ReqDto,
+    @Query() query: PaginateQueryDto,
+  ): Promise<GetTreeRequestDto> {
+    return await this.treeservice.getTree(req.user.id, query);
   }
 
   // 获取某树木详情信息

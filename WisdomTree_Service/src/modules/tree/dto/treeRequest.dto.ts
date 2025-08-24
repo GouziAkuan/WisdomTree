@@ -8,6 +8,9 @@ interface GetTreeRequestDto {
 
 interface GetTreeRequestDataDto {
   userEnergy: number;
+  total: number;
+  page: number;
+  pageSize: number;
   treeType: Array<GetTreeDataRequestDto>;
 }
 

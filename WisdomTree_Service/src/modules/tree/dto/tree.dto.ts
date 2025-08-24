@@ -1,5 +1,19 @@
 import { Type } from 'class-transformer';
-import { IsInt, IsNotEmpty, IsString } from 'class-validator';
+import { IsInt, IsNotEmpty, IsNumber, IsString } from 'class-validator';
+
+
+// 分页获取树木列表
+class PaginateQueryDto {
+  @IsNotEmpty()
+  @Type(() => Number)
+  @IsNumber()
+  page: number; // 页码
+
+  @IsNotEmpty()
+  @Type(() => Number)
+  @IsNumber()
+  pageSize: number; // 每页数量
+}
 
 // 获取某树木详情信息
 class GetTreeDetailDto {
@@ -52,4 +66,5 @@ export {
   AdoptTreeDto,
   GetUserAdoptTreeDetailDto,
   GetTreeTypeDetailDto,
+  PaginateQueryDto
 };

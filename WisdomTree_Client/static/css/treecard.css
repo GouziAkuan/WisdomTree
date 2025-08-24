@@ -1,15 +1,16 @@
 .treelist-item {
-  width: 295rpx;
+  /* width: 295rpx; */
   padding: 20rpx;
   background-color: white;
   border-radius: 8px;
-  margin-bottom: 30rpx;
-  height: fit-content;
+  margin-top: 25rpx;
+  height: 340rpx;
 }
 
-.treelist-image image {
+.treelist-image :nth-child(1) {
   width: 140rpx;
   height: 140rpx;
+  object-fit: cover; /* 图片自适应容器，保持比例裁切 */
 }
 
 .list-text view {
@@ -18,7 +19,11 @@
 
 /* 消除插槽的样式影响 */
 .list-text :nth-child(1) {
+  width: 150rpx;
   margin-bottom: 0;
+  overflow: hidden; /* 超出的文本隐藏 */
+  text-overflow: ellipsis; /* 溢出用省略号显示 */
+  white-space: nowrap; /* 溢出不换 */
 }
 
 .list-text :nth-child(1) {

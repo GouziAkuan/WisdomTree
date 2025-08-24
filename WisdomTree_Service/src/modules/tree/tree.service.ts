@@ -12,7 +12,7 @@ import { TreeEntity } from 'src/database/entities/trees.entity';
 import { TreeImagesEntity } from 'src/database/entities/treeImages.entity';
 import { AdoptionsEntity } from 'src/database/entities/adoptions.entity';
 import { Repository } from 'typeorm';
-import { AdoptTreeDto } from './dto/tree.dto';
+import { AdoptTreeDto, PaginateQueryDto } from './dto/tree.dto';
 import {
   BadAdoptException,
   BadGetUserAdoptTreeDetail,
@@ -38,31 +38,43 @@ export class TreeService {
     private readonly userRepository: Repository<UserEntity>,
   ) {}
   // 获取树木列表
-  async getTree(userId: number): Promise<GetTreeRequestDto> {
+  async getTree(
+    userId: number,
+    query: PaginateQueryDto,
+  ): Promise<GetTreeRequestDto> {
     try {
-      // 查询用户总能量
-      const user: UserEntity = await this.userRepository.findOne({
-        where: {
-          id: userId,
+      const user = await this.userRepository.findOne({ where: { id: userId } });
+
+      const { page, pageSize } = query;
+      const [records, total] = await this.treeTypeRepository.findAndCount({
+        select: {
+          id: true,
+          scientific_name: true,
+          total: true,
+          remaining: true,
+          energy: true,
+          avatar: true,
         },
+        order: { id: 'ASC' },
+        take: pageSize,
+        skip: (page - 1) * pageSize,
       });
-      // 从数据库获取全部树信息
-      const treeType: TreeTypeEntity[] = await this.treeTypeRepository.find();
-      treeType.map((item) => {
-        delete item.common_name;
-        delete item.description;
-      });
+
       return {
         status: HttpStatus.OK,
         code: 0,
         message: '获取成功',
         data: {
-          userEnergy: user.energy,
-          treeType,
+          userEnergy: user?.energy ?? 0,
+          total,
+          page,
+          pageSize,
+          treeType: records,
         },
       };
     } catch (error) {
       console.log(error);
+      // 日志省略
       throw new NoTreeException();
     }
   }
