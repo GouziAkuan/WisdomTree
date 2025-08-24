@@ -22,6 +22,7 @@
    扫码等待审核，注意打开调试模式（然后重新启动小程序），步骤如下：
 
    <img src="https://youke1.picui.cn/s1/2025/08/21/68a72fd19211e.png" width="300" height="300"/>
+   <br/>
    <img src="https://youke1.picui.cn/s1/2025/08/21/68a72fd1b424f.png" width="300" height="650"/>
    <img src="https://youke1.picui.cn/s1/2025/08/21/68a7308181905.jpeg" width="300" height="650"/>
 
@@ -33,14 +34,14 @@
    - 无限滚动、虚拟列表和懒加载，优化长列表数据渲染性能，提升大数据量展示时的流畅度
 
    界面截图:
-   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFeWiq3r48ZHtgNdjxFIFlavSa7k7wAAIGGgACsgpYVTDh0nhxJkPaNgQ.jpg" width="300" height="650"/>
-   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFemiq3uAjdC-2nbY3JrVrFN3HQ8icAAIHGgACsgpYVS0dBZtEDfHhNgQ.jpg" width="300" height="650"/>
-   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFe2iq3uGaAyWbrfeHghKRAAGb3YqtugACCBoAArIKWFX-7VJz-hT8XjYE.jpg" width="300" height="650"/>
-   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFfGiq3uZRWpQPFNuKZKatO02q2W9uAAIJGgACsgpYVR7SOwQStv2tNgQ.jpg" width="300" height="650"/>
-   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFfWiq3ufN66k3LkJW7OFti2QJHA-rAAIKGgACsgpYVcxMrhd9hXnrNgQ.jpg" width="300" height="650"/>
-   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFf2iq31oKIrShjnhfZfjf6mHWdR5SAAIQGgACsgpYVVEarSuLfcMpNgQ.jpg" width="300" height="650"/>
-   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFgGiq31sMpu7W6d895neNEHBsUjvUAAIRGgACsgpYVZ2YRdY_c8cZNgQ.jpg" width="300" height="650"/>
-   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFfmiq31inv5cpkXl74Bh4nOGMkT54AAIPGgACsgpYVR-6JjLEQ_8UNgQ.jpg" width="300" height="650"/>
+   <img src="https://youke1.picui.cn/s1/2025/08/24/68aae16c36922.jpg" width="300" height="650"/>
+   <img src="https://youke1.picui.cn/s1/2025/08/24/68aae16ee6ab6.jpg" width="300" height="650"/>
+   <img src="https://youke1.picui.cn/s1/2025/08/24/68aae16f576b9.jpg" width="300" height="650"/>
+   <img src="https://youke1.picui.cn/s1/2025/08/24/68aae16f9f8d2.jpg" width="300" height="650"/>
+   <img src="https://youke1.picui.cn/s1/2025/08/24/68aae16f0bac7.jpg" width="300" height="650"/>
+   <img src="https://youke1.picui.cn/s1/2025/08/24/68aae17129600.jpg" width="300" height="650"/>
+   <img src="https://youke1.picui.cn/s1/2025/08/24/68aae1747cc04.jpg" width="300" height="650"/>
+   <img src="https://youke1.picui.cn/s1/2025/08/24/68aae17551d80.jpg" width="300" height="650"/>
 
 2. **管理端**（Web）已上线 体验账号 GucTree 123456
 
@@ -52,10 +53,10 @@
    - 优化 3D 渲染性能，支持窗口自适应与资源自动清理
 
    界面截图:
-   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFgWiq37BFf61vM0ujOkNuhlXn29N9AAISGgACsgpYVe15aFm9aUZUNgQ.jpg" width="650" height="300"/>
-   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFgmiq37FVQNZee-IXPnjF7za-5bI6AAITGgACsgpYVYhtvERAKRWJNgQ.jpg" width="650" height="300"/>
-   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFhGiq4FPYVO5BCAlpytKQcYXOiCapAAIVGgACsgpYVRArfjhTFEivNgQ.jpeg" width="650" height="300"/>
-   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFg2iq4FJ7H_a1F7lBYbOUsPm3JzxqAAIUGgACsgpYVZ6ITJYMCj3HNgQ.jpeg" width="650" height="300"/>
+   <img src="https://youke1.picui.cn/s1/2025/08/24/68aae1bcd19c4.jpg" width="650" height="300"/>
+   <img src="https://youke1.picui.cn/s1/2025/08/24/68aae1bd24717.jpg" width="650" height="300"/>
+   <img src="https://youke1.picui.cn/s1/2025/08/24/68aae1bd4c3b5.jpeg" width="650" height="300"/>
+   <img src="https://youke1.picui.cn/s1/2025/08/24/68aae1bd349d8.jpeg" width="650" height="300"/>
 
 3. **后端**
 
