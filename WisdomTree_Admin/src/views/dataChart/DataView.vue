@@ -113,7 +113,7 @@ const chartOptions = {
         name: '树种分布',
         type: 'pie',
         radius: ['40%', '70%'],
-        center: ['40%', '50%'], // 往左一点，避免和图例重叠
+        center: ['35%', '50%'], // 往左一点，避免和图例重叠
         data: speciesData.value,
         itemStyle: {
           borderRadius: 8,
@@ -123,6 +123,10 @@ const chartOptions = {
         label: {
           color: '#333',
           fontSize: 12
+        },
+        labelLine: {
+          length: 10, // ← 控制第一段线的长度
+          length2: 10, // ← 控制第二段线的长度
         }
       }
     ],
