@@ -103,7 +103,9 @@ const chartOptions = {
       formatter: '{a} <br/>{b} : {c} ({d}%)'
     },
     legend: {
-      top: 0,
+      orient: 'vertical', // 垂直排列
+      right: 10,
+      top: 'middle',
       textStyle: { color: '#666' }
     },
     series: [
@@ -111,6 +113,7 @@ const chartOptions = {
         name: '树种分布',
         type: 'pie',
         radius: ['40%', '70%'],
+        center: ['40%', '50%'], // 往左一点，避免和图例重叠
         data: speciesData.value,
         itemStyle: {
           borderRadius: 8,
@@ -371,7 +374,7 @@ const fetchAllData = async () => {
       value: item.count,
       name: item.treeType
     }))
-    
+
     // 处理领养趋势数据（折线图）
     adoptData.value = trendRes.data.data.map((item) => item.count)
     chartOptions.line.xAxis.data = trendRes.data.data.map((item) =>

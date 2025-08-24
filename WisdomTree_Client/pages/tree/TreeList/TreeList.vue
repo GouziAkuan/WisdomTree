@@ -70,6 +70,7 @@ const visibleData = computed(() => {
     rowStart + Math.ceil(viewportHeight.value / rowHeight) + BUFFER_ROWS * 2;
 
   // 转换成数组索引
+  // 规律 第0行 → 起点下标 0 第1行 → 起点下标 2 第2行 → 起点下标 4
   const start = rowStart * itemsPerRow;
   const end = rowEnd * itemsPerRow;
 
@@ -150,6 +151,7 @@ const onScrollToLower = async () => {
   if (now - lastLoadTime < LOAD_INTERVAL) return;
   lastLoadTime = now;
 
+  // 加载锁 正在加载就先别获取了
   if (isLoading.value) return;
   if (treeData.value.treeType.length >= treeData.value.total) return;
 
@@ -253,7 +255,7 @@ onMounted(() => {
 .bg-img {
   width: 100%;
   position: absolute;
-  top: -85px;
+  top: -165rpx;
   z-index: 1;
   height: 410rpx;
 }

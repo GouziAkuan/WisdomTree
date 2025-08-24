@@ -1,10 +1,12 @@
 import { useTokenStore } from "@/stores/token";
 
-const BaseUrl = "https://guctree-service-152778-5-1348407746.sh.run.tcloudbase.com";
+// const BaseUrl =
+//   "https://express-nh6t-165494-6-1348407746.sh.run.tcloudbase.com";
 
-// const BaseUrl = "http://localhost:8080";
+const BaseUrl = "http://localhost:8080";
 
-const TreeModelUrl = "https://guctree-admin-152778-5-1348407746.sh.run.tcloudbase.com/TreeModel";
+const TreeModelUrl =
+  "https://admin-165494-6-1348407746.sh.run.tcloudbase.com/TreeModel";
 
 // 创建一个函数来验证RefreshToken然后刷新 AccessToken
 const NewAccesstoken = async () => {
