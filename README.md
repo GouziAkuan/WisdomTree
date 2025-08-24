@@ -11,18 +11,17 @@
 - **小程序**：Vue3 + uni-app（跨平台小程序）、Pinia、ECharts（数据可视化）。
 - **管理端**：Vue3 + Vite + Element Plus（UI 框架）、ECharts（数据可视化）、Three.js（3D 地图）。
 - **功能亮点**：大模型选用 Qwen，支持 AI 识别树木状态、AI 养护建议、3D 动态热力地图、3D 树木模型、树木全生命周期管理、游戏化积分激励、解密微信数据转换能量球。
-- **性能优化**:无限滚动、虚拟列表和懒加载，优化长列表数据渲染性能，提升大数据量展示时的流畅度；优化 3D 渲染性能，合理复用几何体与材质，支持窗口自适应与资源自动清理，保障大场景流畅运行；视频切片上传，通过 ffmpeg 高效转码，支持 H.264 编码优化，降低帧率，提升速度和视频兼容性；与微信账号绑定，设置步数阈值防止刷步数
+- **性能优化**：无限滚动、虚拟列表和懒加载，优化长列表数据渲染性能，提升大数据量展示时的流畅度；优化 3D 渲染性能，合理复用几何体与材质，支持窗口自适应与资源自动清理，保障大场景流畅运行；与微信账号绑定，设置步数阈值防止刷步数
 
 ---
 
 **核心功能**
 
-1. **用户端**（小程序）已上线体验版 重新注册账号即可
+1. **用户端**（小程序）已上线体验版 重新注册账号即可或使用（akuan 123456）登录
 
-   注意打开调试模式（然后重新启动小程序），步骤如下：
+   扫码等待审核，注意打开调试模式（然后重新启动小程序），步骤如下：
 
-   ![体验版二维码](https://youke1.picui.cn/s1/2025/08/21/68a72fd19211e.png)
-
+   <img src="https://youke1.picui.cn/s1/2025/08/21/68a72fd19211e.png" width="300" height="300"/>
    <img src="https://youke1.picui.cn/s1/2025/08/21/68a72fd1b424f.png" width="300" height="650"/>
    <img src="https://youke1.picui.cn/s1/2025/08/21/68a7308181905.jpeg" width="300" height="650"/>
 
@@ -31,8 +30,17 @@
    - 环保论坛与活动运营
    - 微信步数兑换能量积分与互动激励
    - 积分机制领养树木
+   - 无限滚动、虚拟列表和懒加载，优化长列表数据渲染性能，提升大数据量展示时的流畅度
 
    界面截图:
+   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFeWiq3r48ZHtgNdjxFIFlavSa7k7wAAIGGgACsgpYVTDh0nhxJkPaNgQ.jpg" width="300" height="650"/>
+   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFemiq3uAjdC-2nbY3JrVrFN3HQ8icAAIHGgACsgpYVS0dBZtEDfHhNgQ.jpg" width="300" height="650"/>
+   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFe2iq3uGaAyWbrfeHghKRAAGb3YqtugACCBoAArIKWFX-7VJz-hT8XjYE.jpg" width="300" height="650"/>
+   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFfGiq3uZRWpQPFNuKZKatO02q2W9uAAIJGgACsgpYVR7SOwQStv2tNgQ.jpg" width="300" height="650"/>
+   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFfWiq3ufN66k3LkJW7OFti2QJHA-rAAIKGgACsgpYVcxMrhd9hXnrNgQ.jpg" width="300" height="650"/>
+   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFf2iq31oKIrShjnhfZfjf6mHWdR5SAAIQGgACsgpYVVEarSuLfcMpNgQ.jpg" width="300" height="650"/>
+   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFgGiq31sMpu7W6d895neNEHBsUjvUAAIRGgACsgpYVZ2YRdY_c8cZNgQ.jpg" width="300" height="650"/>
+   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFfmiq31inv5cpkXl74Bh4nOGMkT54AAIPGgACsgpYVR-6JjLEQ_8UNgQ.jpg" width="300" height="650"/>
 
 2. **管理端**（Web）已上线 体验账号 GucTree 123456
 
@@ -41,8 +49,13 @@
    - 树木/树类信息管理
    - 活动发布与数据看板
    - 用户领养编辑与统计
+   - 优化 3D 渲染性能，支持窗口自适应与资源自动清理
 
    界面截图:
+   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFgWiq37BFf61vM0ujOkNuhlXn29N9AAISGgACsgpYVe15aFm9aUZUNgQ.jpg" width="650" height="300"/>
+   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFgmiq37FVQNZee-IXPnjF7za-5bI6AAITGgACsgpYVYhtvERAKRWJNgQ.jpg" width="650" height="300"/>
+   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFhGiq4FPYVO5BCAlpytKQcYXOiCapAAIVGgACsgpYVRArfjhTFEivNgQ.jpeg" width="650" height="300"/>
+   <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAALFg2iq4FJ7H_a1F7lBYbOUsPm3JzxqAAIUGgACsgpYVZ6ITJYMCj3HNgQ.jpeg" width="650" height="300"/>
 
 3. **后端**
 
