@@ -21,7 +21,7 @@
 
    扫码等待审核，注意打开调试模式（然后重新启动小程序），步骤如下：
 
-   <img src="https://youke1.picui.cn/s1/2025/08/21/68a72fd19211e.png" width="300" height="300"/>
+   <img src="https://youke1.picui.cn/s1/2025/08/21/68a72fd19211e.png" width="300" height="350"/>
    <br/>
    <img src="https://youke1.picui.cn/s1/2025/08/21/68a72fd1b424f.png" width="300" height="650"/>
    <img src="https://youke1.picui.cn/s1/2025/08/21/68a7308181905.jpeg" width="300" height="650"/>
@@ -54,7 +54,7 @@
    - 优化 3D 渲染性能，支持窗口自适应与资源自动清理
 
    界面截图:
-      <br/>
+   <br/>
    <img src="https://youke1.picui.cn/s1/2025/08/24/68aae1bcd19c4.jpg" width="650" height="350"/>
    <img src="https://youke1.picui.cn/s1/2025/08/24/68aae1bd24717.jpg" width="650" height="350"/>
    <img src="https://youke1.picui.cn/s1/2025/08/24/68aae1bd4c3b5.jpeg" width="650" height="350"/>
@@ -62,10 +62,14 @@
 
 3. **后端**
 
-   - 调用阿里云通义大模型，实现树木图像识别与养护建议生成。
+   - Nest.js（模块化架构） + TypeORM（MySQL 数据操作） + TypeScript + 阿里云Qwen大模型（AI 识别）。
+   - 调用阿里云Qwen大模型，实现树木图像识别与养护建议生成。
    - JWT 双令牌机制（Access Token + Refresh Token），支持权限分级管理。
    - 提供多维度统计数据接口（领养趋势、树种分布等等）。
    - 通过 TypeORM 实现数据库事务控制（如领养流程中的积分扣除与记录更新）。
+   - 以模块化设计支持高并发场景，兼顾性能与扩展性。
+     <img src="https://camo.githubusercontent.com/4b0000b8e7a6449a924fe0212093b9f3936ef80cc8fdfbb770baad58f58b8c2c/68747470733a2f2f6e6573746a732e636f6d2f696d672f6c6f676f2d736d616c6c2e737667" width="350" height="350"/>
+     <img src="https://img-blog.csdnimg.cn/55ad1690997a4d1a9520319b0fd58b82.webp#pic_center" width="650" height="350"/>
 
 ---
 
