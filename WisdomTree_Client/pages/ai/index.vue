@@ -314,6 +314,7 @@ const smallImageStyles = {
                       fileMediatype="image"
                       :image-styles="smallImageStyles"
                       @select="handleLeafUpload"
+                      :sizeType="['compressed']"
                     >
                       <uni-icons
                         v-if="!leafImage"
