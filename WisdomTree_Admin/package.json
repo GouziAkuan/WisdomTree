@@ -11,27 +11,27 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "@element-plus/icons-vue": "^2.3.1",
-    "@types/three": "^0.176.0",
-    "@vueuse/core": "^13.1.0",
-    "axios": "^1.9.0",
+    "@element-plus/icons-vue": "^2.3.2",
+    "@types/three": "^0.179.0",
+    "@vueuse/core": "^13.7.0",
+    "axios": "^1.11.0",
     "d3-geo": "^3.1.1",
     "dayjs": "^1.11.13",
-    "echarts": "^5.6.0",
-    "element-plus": "^2.9.8",
-    "pinia": "^3.0.2",
-    "pinia-plugin-persistedstate": "^4.2.0",
-    "three": "^0.176.0",
-    "vue": "^3.5.13",
+    "echarts": "^6.0.0",
+    "element-plus": "^2.11.1",
+    "pinia": "^3.0.3",
+    "pinia-plugin-persistedstate": "^4.5.0",
+    "three": "^0.179.1",
+    "vue": "^3.5.19",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@rushstack/eslint-patch": "^1.11.0",
-    "@vitejs/plugin-vue": "^5.2.3",
+    "@rushstack/eslint-patch": "^1.12.0",
+    "@vitejs/plugin-vue": "^6.0.1",
     "@vue/eslint-config-prettier": "^10.2.0",
-    "eslint": "^9.25.1",
-    "eslint-plugin-vue": "^10.0.0",
-    "prettier": "^3.5.3",
-    "vite": "^6.3.3"
+    "eslint": "^9.34.0",
+    "eslint-plugin-vue": "^10.4.0",
+    "prettier": "^3.6.2",
+    "vite": "^7.1.3"
   }
 }
