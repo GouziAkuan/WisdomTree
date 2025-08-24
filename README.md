@@ -69,8 +69,8 @@
    - 通过 TypeORM 实现数据库事务控制（如领养流程中的积分扣除与记录更新）。
    - 以模块化设计支持高并发场景，兼顾性能与扩展性。
      <br/>
-     <img src="https://camo.githubusercontent.com/4b0000b8e7a6449a924fe0212093b9f3936ef80cc8fdfbb770baad58f58b8c2c/68747470733a2f2f6e6573746a732e636f6d2f696d672f6c6f676f2d736d616c6c2e737667" width="250" height="250"/>
-     <img src="https://img-blog.csdnimg.cn/55ad1690997a4d1a9520319b0fd58b82.webp#pic_center" width="350" height="150"/>
+     <img src="https://camo.githubusercontent.com/4b0000b8e7a6449a924fe0212093b9f3936ef80cc8fdfbb770baad58f58b8c2c/68747470733a2f2f6e6573746a732e636f6d2f696d672f6c6f676f2d736d616c6c2e737667" width="200" height="200"/>
+     <img src="https://img-blog.csdnimg.cn/55ad1690997a4d1a9520319b0fd58b82.webp#pic_center" width="350" height="200"/>
 
 ---
 
