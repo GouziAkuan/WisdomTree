@@ -180,7 +180,7 @@ const pieOption = ref({
       name: "树木类型",
       type: "pie",
       radius: ["45%", "65%"],
-      center: ["48%", "50%"],
+      center: ["40%", "50%"],
       avoidLabelOverlap: true, // 必须开启防重叠
       label: {
         show: true,
@@ -191,7 +191,7 @@ const pieOption = ref({
       itemStyle: {
         borderRadius: 8,
         borderColor: "#fff",
-        borderWidth: 3,
+        borderWidth: 2,
       },
       data: [
         {

@@ -286,7 +286,7 @@ onMounted(() => {
   width: 100%;
   height: 1200rpx;
   overflow-y: auto;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   position: relative;
 }
 </style>
